@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDGoC VIT Pune :)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Campus Explorer </h1>
+    <p>Find clubs, events and resources on VIT Pune campus</p>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <input type="text" id="searchInput" placeholder="Try searching clubs,events etc .">
+      <div class="filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="club">Clubs</button>
+        <button class="filter-btn" data-category="event">Events</button>
+        <button class="filter-btn" data-category="resource">Resources</button>
+      </div>
+    </section>
+
+    <p id="resultCount"></p>
+    <section class="grid" id="cardGrid"></section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
